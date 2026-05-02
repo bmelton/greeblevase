@@ -2,7 +2,7 @@
 
 The Greeble Vase is a vase inspired by the Death Star's greeble-patterned walls. 
 
-This is a parametric, OpenSCAD model that you can use to render a vase, pencil/pen cup, makeup brush holder, toothbrush holder, or (with the option toggled) a lampshade, and can optionally render a diffusion layer alongside that is designed to be printed in vase mode. 
+This is an open source, parametric, OpenSCAD model that you can use to render a vase, pencil/pen cup, makeup brush holder, toothbrush holder, or (with the option toggled) a lampshade, and can optionally render a diffusion layer alongside that is designed to be printed in vase mode. 
 
 I'm not an OpenSCAD expert so probably a lot of this code is dumb, or at least unlikely to be idiomatic. Apologies in advance.
 
