@@ -46,7 +46,7 @@ liner_offset = d + 10; // how far to the side the liner renders
 module liner_profile() {
     liner_r_outer = d/2 - w - liner_gap;
     liner_r_inner = liner_r_outer - liner_w;
-    liner_h = (use_case == "lamp") ? h - cable_notch_h : h;
+    liner_h = (use_case == "lamp") ? h - cable_notch_h : h - 6; // -6 is to accommodate for bottom thickness and such. Getting hacky here. Should set a 'bed_thickness' var or something. 
 
     difference() {
         hull() {
