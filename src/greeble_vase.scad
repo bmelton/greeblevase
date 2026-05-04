@@ -40,7 +40,7 @@ cable_notch_d = w + 2; // slightly deeper than wall thickness to ensure clean cu
 // ── Liner parameters ──────────────────────────────────────────────────────
 include_liner  = true;
 liner_w     = 0.42;   // single extrusion width
-liner_gap   = 0.2;    // radial clearance so it slips in easily
+liner_gap   = 0.4;    // radial clearance so it slips in easily
 liner_offset = d + 10; // how far to the side the liner renders
 
 module liner_profile() {
