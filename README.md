@@ -20,7 +20,7 @@ Download the greeble_vase and open it in OpenSCAD. Play with the parameters (the
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `pattern_mode` | `"authentic"` | Pattern style - `"authentic"` for a Death Star corridor-inspired layout (top band + offset rows), or `"random"` for randomized panel heights and row counts |
+| `pattern_mode` | `authentic` | Pattern style - `authentic` for a Death Star corridor-inspired layout (top band + offset rows), or `random` for randomized panel heights and row counts |
 | `greeble_panel_height` | `70` | Height of the greeble zone, measured from the top of the vase |
 | `num_cols` | `26` | Number of panel columns around the circumference |
 | `top_buffer` | `5` | Blank margin at the very top and bottom of the greeble zone in mm |
@@ -31,11 +31,11 @@ Download the greeble_vase and open it in OpenSCAD. Play with the parameters (the
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `use_case` | `"vase"` | Set to `"vase"` to include a solid floor, or `"lamp"` to omit the floor and cut a cable notch at the base for use as a lampshade |
+| `use_case` | `vase` | Set to `vase` to include a solid floor, or `lamp` to omit the floor and cut a cable notch at the base for use as a lampshade |
 
 ### Lamp Options
 
-Only relevant when `use_case = "lamp"`.
+Only relevant when `use_case = lamp`.
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
