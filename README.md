@@ -20,7 +20,7 @@ Download the greeble_vase and open it in OpenSCAD. Play with the parameters (the
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `pattern_mode` | `"authentic"` | Pattern style — `"authentic"` for a Death Star corridor-inspired layout (top band + offset rows), or `"random"` for randomized panel heights and row counts |
+| `pattern_mode` | `"authentic"` | Pattern style - `"authentic"` for a Death Star corridor-inspired layout (top band + offset rows), or `"random"` for randomized panel heights and row counts |
 | `greeble_panel_height` | `70` | Height of the greeble zone, measured from the top of the vase |
 | `num_cols` | `26` | Number of panel columns around the circumference |
 | `top_buffer` | `5` | Blank margin at the very top and bottom of the greeble zone in mm |
